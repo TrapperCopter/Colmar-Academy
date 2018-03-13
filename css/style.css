@@ -54,13 +54,14 @@ margin-left: 24px;
 /* ############################################ */
 /* ################ BANNER #################### */
 /* ############################################ */
-.bannercontent {
+.banner-container {
   background-color: black;
 }
 .banner-container .banner-photo {
   width: 60%;
-  text-align: left;
-  padding: 32px 24px;
+  float: left;
+  margin: 32px 24px;
+
 }
 .banner-container .banner-font {
   float: right;
