@@ -1,0 +1,68 @@
+
+/* ############################################ */
+/* ################ HEADER #################### */
+/* ############################################ */
+header .head-content {
+  background-color: white;
+  height: 64px
+
+}
+.logo img {
+width: 64px;
+height: 64px;
+float: left;
+margin-left: 24px;
+}
+
+.head-content {
+    line-height: 64px;
+
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.logo-font {
+  float: left;
+}
+
+.logo .logo-font-bold {
+
+  font-weight: bold;
+  color: black;
+}
+
+.logo .logo-font-gray {
+
+  font-weight: lighter;
+  color: gray;
+}
+
+.head-content .nav-bar {
+  float: right;
+  margin-right: 24px;
+    font-size: 24px;
+}
+
+.head-content .nav-bar .nav-btn {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+
+/* ############################################ */
+/* ################ BANNER #################### */
+/* ############################################ */
+.bannercontent {
+  background-color: black;
+}
+.banner-container .banner-photo {
+  width: 60%;
+  text-align: left;
+  padding: 32px 24px;
+}
+.banner-container .banner-font {
+  float: right;
+  font-size: 25px;
+}
