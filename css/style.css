@@ -209,19 +209,21 @@ margin-left: 24px;
 
 .articles-container-dsktp {
   background-color: white;
+  width: auto;
+  overflow: auto;
 }
 
 .practice-photo-dsktp img{
-  display: block;
+  width: 60%;
   float:left;
   margin: 32px 24px 0 31px;
-  width: 1010px;
-  overflow: hidden;
+
 }
 
 .practice-font-dsktp {
   display: block;
   float: left;
+  width: 60%;
 }
 
 .practice-font-dsktp h2 {
@@ -234,15 +236,17 @@ margin-left: 24px;
   margin-top: 60px;
   line-height: 30px;
   margin: 0 0 32px 24px;
-  width: 900px;
+  max-width: 900px;
   font-weight: 100;
+  width: auto;
 }
 .practice-font-dsktp h5 {
 
   margin-top: 60px;
   line-height: 54px;
   margin: 0px 0 32px 24px;
-  width: 1010px;
+  max-width: 1010px;
+  width: auto;
 }
 
 .articles-flex-dsktp {
@@ -289,15 +293,14 @@ line-height: 30px;
 .learning-container {
   margin: 32px auto 0;
   background-color: rgba(231,232,232,1);
-overflow: cover;
-width: auto;
+  width: auto;
 }
 .learning-container h2 {
   text-align: center;
   padding: 32px 0px;
   font-weight: bold;
   color: rgba(72, 72, 72, 1);
-
+width: auto;
 }
 .learning-flex-dsktp {
   padding-left: 72px;
@@ -386,36 +389,47 @@ max-height: 500px;
 }
 
 @media only screen and (max-width:1657px) {
+
+  /* ############################################ */
+  /* ################ BANNER #################### */
+  /* ############################################ */
+
+  .banner-container .banner-font {
+    margin: 15% 0 0 50px;
+
+    color: rgba(72, 72, 72, 1);
+
+  }
+
+  .banner-container .banner-font h2 {
+
+    font-weight: bold;
+  }
+
+  .banner-container .banner-font h3 {
+
+    margin-top: 60px;
+    line-height: 54px;
+  }
+
+  .banner-container .banner-btn {
+    padding: 16px 0px;
+    background-color: rgba(72, 72, 72, 1);
+    font-size: 34px;
+    color: white;
+    width: 550px;
+    max-width: 650px;
+    text-align: center;
+    margin-top: 60px;
+    display: inline-block;
+  }
+
+  /* ############################################ */
+  /* ############### ARTICLES ################### */
+  /* ############################################ */
+
   .articles-flex-dsktp img {
       margin-right: 100%;
 }
 
-.banner-container .banner-font {
-  margin: 15% 0 0 50px;
-
-  color: rgba(72, 72, 72, 1);
-
-}
-
-.banner-container .banner-font h2 {
-
-  font-weight: bold;
-}
-
-.banner-container .banner-font h3 {
-
-  margin-top: 60px;
-  line-height: 54px;
-}
-
-.banner-container .banner-btn {
-  padding: 16px 0px;
-  background-color: rgba(72, 72, 72, 1);
-  font-size: 34px;
-  color: white;
-  width: 550px;
-  max-width: 650px;
-  text-align: center;
-  margin-top: 60px;
-  display: inline-block;
 }
